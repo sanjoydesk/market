@@ -1,1 +1,1 @@
-# supermarket
+# Product catalogue
