@@ -92,7 +92,6 @@ class Product
     */
     public function getDiscount($productKey, $numberOfItem, $comboProductId = '')
     {
-    	//echo $comboProductId."\n";
     	$discount = 0;
     	foreach ($this->products as $key => $value) {
     		if ($value['id'] === $productKey && $value['number_of_item'] == $numberOfItem){
